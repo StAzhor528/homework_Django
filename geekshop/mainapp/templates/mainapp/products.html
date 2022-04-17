@@ -1,0 +1,93 @@
+{% extends 'geekshop/base.html' %}
+{% load static %}
+
+{% block content %}
+		<div class="hero-white">
+			{% include 'geekshop/includes/header.html' %}
+		</div>
+
+		<div class="details">
+			<div class="links clearfix">
+				<ul class="links-menu">
+					{% for link in links_menu %}
+						<li><a href="/{{ link.href }}/"
+						   class="{% if request.resolver_match.url_name == link.href %}
+									active
+								  {% endif %}">
+							{{ link.name }}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<div class="details-products">
+				<div class="details-slider">
+					<div class="slider-product">
+						<img src="/media/{{ object.image }}">
+					</div>
+					<div class="slider-control">
+						{% for product in products_70 %}
+							<div class="block">
+								<a href="#"><img src="/media/{{ product.image }}" alt="">
+									<div class="text"></div>
+								</a>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+
+				<div class="description">
+					<h3 class="big-bold">{{ object.name }}</h3>
+					<h3 class="red">горячее предложение</h3>
+					<p class="price"> {{ object.price }} <span>руб</span></p>
+					<a href="#" class="red-button">
+						заказать <i class="fa fa-chevron-right" aria-hidden="true"></i>
+					</a>
+					<div class="description-text">
+						<p>{{ object.short_desc }}</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="related">
+				<div class="title clearfix">
+					<h2>Похожие продукты</h2>
+					<a class="explore" href="#">показать все <img src="{% static 'geekshop/img/arrow.png' %}" alt=""></a>
+				</div>
+				<div class="related-products clearfix">
+					{% for product in products_270 %}
+						<div class="block">
+							<a href="#"><img src="/media/{{ product.image }}" alt="">
+								<div class="text">
+									<img src="{% static 'geekshop/img/icon-hover.png' %}" alt="img">
+									<h4>{{ product.short_desc }}</h4>
+									<h4>{{ product.price }}$</h4>
+								</div>
+							</a>
+						</div>
+					{% endfor %}
+<!--					<div class="block">-->
+<!--						<a href="#"><img src="{% static 'geekshop/img/product-21.jpg' %}" alt="">-->
+<!--							<div class="text">-->
+<!--								<img src="{% static 'geekshop/img/icon-hover.png' %}" alt="img">-->
+<!--								<h4>Стул повышенного качества</h4>-->
+<!--								<p>Не оторваться. </p>-->
+<!--							</div>-->
+<!--						</a>-->
+<!--					</div>-->
+<!--					<div class="block">-->
+<!--						<a href="#"><img src="{% static 'geekshop/img/product-31.jpg' %}" alt="">-->
+<!--							<div class="text">-->
+<!--								<img src="{% static 'geekshop/img/icon-hover.png' %}" alt="img">-->
+<!--								<h4>Стул повышенного качества</h4>-->
+<!--								<p>Не оторваться. </p>-->
+<!--							</div>-->
+<!--						</a>-->
+<!--					</div>-->
+
+				</div>
+			</div>
+		</div>
+{% endblock %}
