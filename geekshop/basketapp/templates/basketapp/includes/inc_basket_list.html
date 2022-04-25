@@ -1,0 +1,47 @@
+<table class="table" style="padding-inline: 100px;">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Кртинка</th>
+        <th scope="col">Категория</th>
+        <th scope="col">Имя товара</th>
+        <th scope="col">Цена</th>
+        <th scope="col">Количество</th>
+        <th scope="col">Сумма</th>
+        <th scope="col">Удалить</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in basket_items %}
+    <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td>
+            <div style="width: 100px;
+                                margin-left: auto;
+                                margin-right: auto;">
+                <img class="img_adaptive" src="/media/{{ item.product.image }}" alt="{{ item.product.short_desc }}">
+            </div>
+        </td>
+        <td>{{ item.product.category.name }}</td>
+        <td>{{ item.product.name }}</td>
+        <td>{{ item.product.price }}$</td>
+        <td><input type="number" name="{{ item.pk }}" min="0" value="{{ item.quantity }}"></td>
+        <td>{{ item.product_cost }}</td>
+        <td>
+            <button class="btn">
+                <a href="{% url 'basket:remove' item.pk %}" class="">
+                    удалить
+                </a>
+            </button>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% if basket_items %}
+<div class="basket_summary">
+    В корзине {{ basket_items.0.total_quantity }} товаров на общую сумму {{ basket_items.0.total_cost }}$
+</div>
+{% endif %}
+
+</div>
