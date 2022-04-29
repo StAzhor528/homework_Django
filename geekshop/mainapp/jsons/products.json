@@ -1,0 +1,74 @@
+[
+  {
+    "category": "Фонтаны",
+    "name": "Фонтан-1",
+    "image": "product_images/Фонтан-1.jpg",
+    "short_desc": "Зелено-фиолетовый",
+    "description": "",
+    "price": "1000.00",
+    "quantity": 1
+  },
+  {
+    "category": "Фонтаны",
+    "name": "Фонтан-2",
+    "image": "product_images/Фонтан-2.jpg",
+    "short_desc": "Зелено-желто-красно-фиолетовый",
+    "description": "",
+    "price": "250.10",
+    "quantity": 1
+  },
+  {
+    "category": "Фонтаны",
+    "name": "Фонтан-3",
+    "image": "product_images/Фонтан-3.jpg",
+    "short_desc": "Полосатый сине-красный",
+    "description": "",
+    "price": "157.00",
+    "quantity": 1
+  },
+  {
+    "category": "Фонтаны",
+    "name": "Фонтан-4",
+    "image": "product_images/Фонтан-4.jpg",
+    "short_desc": "Голубой",
+    "description": "",
+    "price": "500.34",
+    "quantity": 3
+  },
+  {
+    "category": "Фонтаны",
+    "name": "Фонтан-5",
+    "image": "product_images/Фонтан-5.jpg",
+    "short_desc": "Зелено-фиолетовый маленький",
+    "description": "",
+    "price": "50.89",
+    "quantity": 2
+  },
+  {
+    "category": "Фонтаны",
+    "name": "Фонтан-6",
+    "image": "product_images/Фонтан-6.jpg",
+    "short_desc": "Разноцветный купол",
+    "description": "",
+    "price": "467.90",
+    "quantity": 6
+  },
+  {
+    "category": "Фонтаны",
+    "name": "Фонтан-7",
+    "image": "product_images/Фонтан-7.jpg",
+    "short_desc": "Красный",
+    "description": "",
+    "price": "356.23",
+    "quantity": 1
+  },
+  {
+    "category": "Фонтаны",
+    "name": "Фонтан-8",
+    "image": "product_images/Фонтан-8.jpg",
+    "short_desc": "Фиолетовый",
+    "description": "",
+    "price": "289.54",
+    "quantity": 7
+  }
+]
