@@ -1,0 +1,75 @@
+{% extends 'adminapp/base.html' %}
+{% load static %}
+{% load my_tags %}
+
+{% block content %}
+<div class="card-header">
+    <i class="fas fa-table mr-1"></i>
+    {{ title|title }}
+</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Имя пользователя</th>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Адресс эл. почты</th>
+        <th>Персонал сайта</th>
+        <th>Активный</th>
+        <th>Вход</th>
+        <th>Удалить</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <th>Имя пользователя</th>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Адресс эл. почты</th>
+        <th>Персонал сайта</th>
+        <th>Активный</th>
+        <th>Вход</th>
+        <th>Удалить</th>
+    </tr>
+    </tfoot>
+    <tbody>
+    {% for item in objects %}
+    <tr {% if not item.is_active %} style="opacity: 0.5; text-decoration: line-through;" {% endif %}>
+        <td><a href="{% url 'admin_staff:user_update' item.id %}" style="color: dodgerblue;">{{ item.username }}</a>
+        </td>
+        <td>{{ item.first_name }}</td>
+        <td>{{ item.last_name }}</td>
+        <td>{{ item.email }}</td>
+        <td>
+            {% if item.is_staff %}
+            <i class="fa fa-check-circle"></i>
+            {% else %}
+            <i class="fa fa-times-circle"></i>
+            {% endif %}
+        </td>
+        <td>
+            {% if item.is_active %}
+            <i class="fa fa-check-circle"></i>
+            {% else %}
+            <i class="fa fa-times-circle"></i>
+            {% endif %}
+        </td>
+        <td>{{ item.last_login }}</td>
+        <td>
+            <a {% if not item.is_active %}
+               class="invisible"
+               {% endif %}
+               href="{% url 'admin_staff:user_delete' pk=item.id %}">
+                <i class="fa fa-times-circle"></i>
+            </a>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<div class="card-footer">
+    <a href="{% url 'admin_staff:user_create' %}">
+        <button class="btn btn-success">Создать пользователя</button>
+    </a>
+</div>
+{% endblock %}
