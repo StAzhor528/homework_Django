@@ -1,0 +1,36 @@
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-text mx-3">Админка</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item">
+        <a href="{% url 'admin_staff:users' %}"
+           class="nav-link">
+            <i class="bx bx-user"></i>
+            <span class="{% if request.resolver_match.url_name == 'users'%}
+                     active
+                  {% endif %}">Пользователи</span>
+        </a>
+        <a href="{% url 'admin_staff:categories' %}"
+           class="nav-link">
+            <i class="bx bx-grid-alt"></i>
+            <span class="{% if request.resolver_match.url_name == 'categories'%}
+                     active
+                  {% endif %}">Категории</span>
+        </a>
+        <a href="{#% url auth:logout %#}"
+           class="nav-link">
+            <i class="bx bx-log-out"></i>
+            <span class="{% if request.resolver_match.url_name == 'logout'%}
+                     active
+                  {% endif %}">Выход</span>
+        </a>
+    </li>
+
+</ul>
