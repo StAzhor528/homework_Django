@@ -1,0 +1,22 @@
+{% extends 'adminapp/base.html' %}
+{% load static %}
+{% block content %}
+<div class="card-header">
+    <i class="fas fa-table mr-1"></i>
+    {{ title|title }}
+</div>
+<div class="card-body">
+    <div class="table-responsive">
+        <form class="form-horizontal" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" class="form-control" value="сохранить">
+        </form>
+    </div>
+</div>
+<div class="card-footer">
+    <a href="{% url 'admin_staff:users' %}">
+        <button class="btn btn-success">К списку пользователей</button>
+    </a>
+</div>
+{% endblock %}
