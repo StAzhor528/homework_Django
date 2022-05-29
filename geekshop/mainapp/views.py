@@ -15,7 +15,11 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def get_products(num):
+<<<<<<< HEAD
     products = Product.objects.filter(is_active=True, category__is_active=True).select_related('category')
+=======
+    products = Product.objects.all()
+>>>>>>> 9462c1f8d8afc76d1a5a658e67d37296e93fd73a
     return random.sample(list(products), num)
 
 

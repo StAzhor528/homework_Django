@@ -11,8 +11,11 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os
 from pathlib import Path
+<<<<<<< HEAD
 
 import debug_toolbar.middleware
+=======
+>>>>>>> 9462c1f8d8afc76d1a5a658e67d37296e93fd73a
 import environ
 
 env = environ.Env(
@@ -53,9 +56,12 @@ INSTALLED_APPS = [
     'ordersapp',
 
     'social_django',
+<<<<<<< HEAD
     'debug_toolbar',
     # 'template_profiler_panel',
     'django_extensions',
+=======
+>>>>>>> 9462c1f8d8afc76d1a5a658e67d37296e93fd73a
 ]
 
 AUTH_USER_MODEL = 'authapp.ShopUser'
@@ -77,7 +83,10 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'social_django.middleware.SocialAuthExceptionMiddleware',
+<<<<<<< HEAD
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+=======
+>>>>>>> 9462c1f8d8afc76d1a5a658e67d37296e93fd73a
 ]
 
 ROOT_URLCONF = 'geekshop.urls'
@@ -120,6 +129,7 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.user.user_details',
 )
 
+<<<<<<< HEAD
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
@@ -141,6 +151,30 @@ DATABASES = {
 #     }
 # }
 
+=======
+
+# Database
+# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'geekshop',
+        'USER': 'postgres',
+        # 'PASSWORD': '1234',
+        # 'HOST': '127.0.0.1',
+        # 'PORT': '5432',
+    }
+}
+
+>>>>>>> 9462c1f8d8afc76d1a5a658e67d37296e93fd73a
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
@@ -175,11 +209,19 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
+<<<<<<< HEAD
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'geekshop', 'static'),
 )
+=======
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'geekshop', 'static'),
+# )
+>>>>>>> 9462c1f8d8afc76d1a5a658e67d37296e93fd73a
 
 MEDIA_URL = '/media/'
 
@@ -205,6 +247,7 @@ EMAIL_HOST_USER, EMAIL_HOST_PASSWORD = None, None
 # EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 # EMAIL_FILE_PATH = 'tmp/email-messages/'
 
+<<<<<<< HEAD
 if DEBUG:
     def show_toolbar(request):
         return True
@@ -230,3 +273,5 @@ if DEBUG:
         'debug_toolbar.panels.profiling.ProfilingPanel',
         # 'template_profiler_panel.panels.template.TemplateProfilerPanel',
     ]
+=======
+>>>>>>> 9462c1f8d8afc76d1a5a658e67d37296e93fd73a
