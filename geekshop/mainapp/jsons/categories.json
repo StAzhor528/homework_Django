@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Фонтаны",
+    "description": "",
+    "is_active": true
+  },
+  {
+    "name": "Системы приточной вентиляции",
+    "description": "",
+    "is_active": true
+  },
+  {
+    "name": "Системы управления насосами",
+    "description": "",
+    "is_active": true
+  },
+  {
+    "name": "тест",
+    "description": "тест",
+    "is_active": false
+  }
+]
