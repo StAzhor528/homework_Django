@@ -58,11 +58,7 @@ def register(request):
         if register_form.is_valid():
             user = register_form.save()
             if send_verify_mail(user):
-<<<<<<< HEAD
                 print('Сообщение подтверждения отправлено')
-=======
-                print('Соодщение подтверждения отправлено')
->>>>>>> 9462c1f8d8afc76d1a5a658e67d37296e93fd73a
                 return HttpResponseRedirect(reverse('auth:login'))
             else:
                 print('Ошибка отправки сообщения')
