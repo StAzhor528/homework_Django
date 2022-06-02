@@ -1,0 +1,328 @@
+[
+  {
+    "model": "sessions.session",
+    "pk": "5o4fx5erqzucjw61b6vqhbs8n30vlrqg",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSHQ8nTp3m8gMwxI1UBS2pXx35WkC93ec859sQD7VsLe0xoWYmc2s9PvhhAfqQ5Ad6i3xmOr27ogHwo_aOfXRul5Ody_gwK9jDpHJUFnL4i0Nk5NqLyhZIWMzgM69JjNbAiFsZJ8BqOm_C08WOHSzN4f88w4FQ:1nppl3:q36dxUDgBqgXv-B-9OZ3LIYu3kaTJmVfdfa-jcb10B8",
+      "expire_date": "2022-05-28T14:16:25.106"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "6rycfjp1bqtrh00ra368gimfg67iemy6",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQAP_C2RAolC4evfsGsl0WqRpISnsy_l1JetDrzGReIuC-5bA3XsMSxVlocfplM9KDSxfxjuVWJdWyrcsseyIP2-S1Rn5ejvZvkLHlvkVHMZLSTuNkWY3EwAMa7xL6KaIdSPtvBJBMUuDHZNBa6wGBfbIg3h_wIDfn:1nt4zm:g3o068-Y2THyxxl5yl-Kw5yFb-WSbHrfjLijTjHAWvQ",
+      "expire_date": "2022-06-06T13:09:02.515"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "e0rl1npbpz52edmwpaab65uxy6limecg",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQAP_C2RAolC4evfsGsl0WqRpISnsy_l1JetDrzGReIuC-5bA3XsMSxVlocfplM9KDSxfxjuVWJdWyrcsseyIP2-S1Rn5ejvZvkLHlvkVHMZLSTuNkWY3EwAMa7xL6KaIdSPtvBJBMUuDHZNBa6wGBfbIg3h_wIDfn:1nvIxG:GBpxn2qQ5CGnm7Qw4nxg5M5cQK7RRiAy74E0tyTwfAg",
+      "expire_date": "2022-06-12T16:27:38.829"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gpjcnu0gaqy29plcakvue0w2sp0g879f",
+    "fields": {
+      "session_data": ".eJxVj8sOgjAQRf-la8UKtgV3rg0x8RXjphmGQQgE1FYUjf9uMcboYjZncu6debCabpZN2YgNWFsOG7jY3NfGgiVHr5vVbr047eNum9wz3K3adRd3t4DXebzEY-Uk3Rv6Yuisi9Qp8p8lgCXV_cI0WEClsTmT96HGa0tvO1_M-tJ_LweTOynwKSERgiCVCo4TiQFEoZpknHOSkRinSgjMeOYGIhkpkfqCSAJHFSZELvTT-46uwFhdNYei_jns-zZ7vgB-_Vqj:1nqtos:fHjkUWUjdqmsjFhb_PrQpcEEYaUeag0G0cskW4Y_NYw",
+      "expire_date": "2022-05-31T12:48:46.696"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "koctiwqzvr5euv6jqtnryvx4uiw5a5ld",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQAP_C2RAolC4evfsGsl0WqRpISnsy_l1JetDrzGReIuC-5bA3XsMSxVlocfplM9KDSxfxjuVWJdWyrcsseyIP2-S1Rn5ejvZvkLHlvkVHMZLSTuNkWY3EwAMa7xL6KaIdSPtvBJBMUuDHZNBa6wGBfbIg3h_wIDfn:1nquDI:XAP7auAOM_iPWXB3HrrE02Q2FoPJSYQg28QZOfxwbyQ",
+      "expire_date": "2022-05-31T13:14:00.109"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ru5xz5d3qjut8uin4qjha74ngkk7nbyz",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQAP_C2RAolC4evfsGsl0WqRpISnsy_l1JetDrzGReIuC-5bA3XsMSxVlocfplM9KDSxfxjuVWJdWyrcsseyIP2-S1Rn5ejvZvkLHlvkVHMZLSTuNkWY3EwAMa7xL6KaIdSPtvBJBMUuDHZNBa6wGBfbIg3h_wIDfn:1nqu9i:ejb1P1cc_FKLDQXGTvdoC66ESKcdgf626fgah6j-ibU",
+      "expire_date": "2022-05-31T13:10:18.534"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "smf0dqsqp5ne6xyftc3ue3pcgzs0wwgy",
+    "fields": {
+      "session_data": ".eJxVj8EKgkAQht9lz2WbtrtuNwMPVlAURrdlXMcURcNdI4jevTUi6jCXb_j-f-ZBWrxbsiQzMiG3etrBYEtfGQsWHY3SdTKsDsH-mtJzmpzi7VXWOgttH--TYyScpEZDDQZ7VeVO4f8sA11jOy5MpytolO569D7UeLfaO2120Vj675VgSicFPmbIQmAockb1gusAZCgWBaUUuWTzXDCmC1q4AcmlYLnPEDlQLcIM0YV-et_RDRirmu5StT-Hfd8mzxfzuVjh:1nqtNa:-Q0o6Cj3ztR103Cg0_0119yXKevQQURNJemPdvC6lvs",
+      "expire_date": "2022-05-31T12:20:34.440"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "t5ifc63gle3jo4rl1hw3xqipbg84xmlf",
+    "fields": {
+      "session_data": ".eJxVjz1vwjAQhv-L55KagO2YjaFZWjWIAcFkXewzcZMmUmy-xX_HQQjBcMtzet737kJaPAYyI5_kg-zrUQe7UKXKBwgYaSXD5vybuZP9-VqCaNeHdf73n49XzhdmIW2U1GConcdeORMV_s5K0DW2w8J32kGjdNdj8qA-2dfJ6ruYD6XvXgW-itIkxRJZBgyFYVRPuZ6AzMTUUkqRSzY2gjFtqY0DkkvBTMoQOVAtshIxhj5679EN-KCabuval8Oeb5PrDd1CWeg:1nqWNY:lm04rQTWOhMpfkbdBN6ot2UhUwCpibfoU5g9FSaU7vE",
+      "expire_date": "2022-05-30T11:47:00.998"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ul41f4z9czobljj4dsdv1akluy4f4eaf",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQAP_C2RAolC4evfsGsl0WqRpISnsy_l1JetDrzGReIuC-5bA3XsMSxVlocfplM9KDSxfxjuVWJdWyrcsseyIP2-S1Rn5ejvZvkLHlvkVHMZLSTuNkWY3EwAMa7xL6KaIdSPtvBJBMUuDHZNBa6wGBfbIg3h_wIDfn:1ns1pq:OeFbudO2NYM9VR3N9s5y7pvkfCDW6pTevN9-p4Zb7q4",
+      "expire_date": "2022-06-03T15:34:26.342"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "wwulsf5qk11hr4xekouk7xuug126e42s",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQAP_C2RAolC4evfsGsl0WqRpISnsy_l1JetDrzGReIuC-5bA3XsMSxVlocfplM9KDSxfxjuVWJdWyrcsseyIP2-S1Rn5ejvZvkLHlvkVHMZLSTuNkWY3EwAMa7xL6KaIdSPtvBJBMUuDHZNBa6wGBfbIg3h_wIDfn:1ns0DN:Z0Z0YN5_anb2OMcNLvWppqp3FQpluHyLI6vVHRokCdg",
+      "expire_date": "2022-06-03T13:50:37.813"
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Фонтаны",
+      "description": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Системы приточной вентиляции",
+      "description": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Системы управления насосами",
+      "description": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 4,
+    "fields": {
+      "name": "тест",
+      "description": "тест",
+      "is_active": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Фонтан-1",
+      "image": "product_images/Фонтан-1.jpg",
+      "short_desc": "Зелено-фиолетовый",
+      "description": "",
+      "price": "1000.00",
+      "quantity": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Фонтан-2",
+      "image": "product_images/Фонтан-2.jpg",
+      "short_desc": "Зелено-желто-красно-фиолетовый",
+      "description": "",
+      "price": "250.10",
+      "quantity": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "name": "Фонтан-3",
+      "image": "product_images/Фонтан-3.jpg",
+      "short_desc": "Полосатый сине-красный",
+      "description": "",
+      "price": "157.00",
+      "quantity": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "name": "Фонтан-4",
+      "image": "product_images/Фонтан-4.jpg",
+      "short_desc": "Голубой",
+      "description": "",
+      "price": "500.34",
+      "quantity": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "Фонтан-5",
+      "image": "product_images/Фонтан-5.jpg",
+      "short_desc": "Зелено-фиолетовый маленький",
+      "description": "",
+      "price": "50.89",
+      "quantity": 0,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "name": "Фонтан-6",
+      "image": "product_images/Фонтан-6.jpg",
+      "short_desc": "Разноцветный купол",
+      "description": "",
+      "price": "467.90",
+      "quantity": 5,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "name": "Фонтан-7",
+      "image": "product_images/Фонтан-7.jpg",
+      "short_desc": "Красный",
+      "description": "",
+      "price": "356.23",
+      "quantity": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "name": "Фонтан-8",
+      "image": "product_images/Фонтан-8.jpg",
+      "short_desc": "Фиолетовый",
+      "description": "",
+      "price": "289.54",
+      "quantity": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 9,
+    "fields": {
+      "category": 2,
+      "name": "СПВ1",
+      "image": "product_images/СПВ-1.jpg",
+      "short_desc": "Первая картинка",
+      "description": "",
+      "price": "67.00",
+      "quantity": 5,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 10,
+    "fields": {
+      "category": 2,
+      "name": "СПВ2",
+      "image": "product_images/СПВ-2.jpg",
+      "short_desc": "Вторая картинка",
+      "description": "",
+      "price": "78.00",
+      "quantity": 3,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 11,
+    "fields": {
+      "category": 2,
+      "name": "СПВ3",
+      "image": "product_images/СПВ-3.jpg",
+      "short_desc": "Третья картинка",
+      "description": "",
+      "price": "234.00",
+      "quantity": 7,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 12,
+    "fields": {
+      "category": 3,
+      "name": "СУН1",
+      "image": "product_images/СУН1.jpg",
+      "short_desc": "Первая система",
+      "description": "",
+      "price": "12.00",
+      "quantity": 4,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 13,
+    "fields": {
+      "category": 3,
+      "name": "СУН2",
+      "image": "product_images/СУН2.jpg",
+      "short_desc": "Вторая система",
+      "description": "",
+      "price": "45.00",
+      "quantity": 0,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 14,
+    "fields": {
+      "category": 3,
+      "name": "СУН3",
+      "image": "product_images/СУН3.jpg",
+      "short_desc": "Третья система",
+      "description": "",
+      "price": "78.00",
+      "quantity": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 15,
+    "fields": {
+      "category": 2,
+      "name": "СПВ4",
+      "image": "product_images/СПВ4.jpg",
+      "short_desc": "блаблаблабла",
+      "description": "много блаблабла",
+      "price": "567.00",
+      "quantity": 3,
+      "is_active": true
+    }
+  }
+]
